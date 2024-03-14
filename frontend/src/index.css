@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 body {
 	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/bg.jpg");
+	font-family: 'Nunito', sans-serif;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
